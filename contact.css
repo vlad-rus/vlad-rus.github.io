@@ -1,0 +1,96 @@
+body {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+}
+
+.container-fluid {
+text-align: center;
+padding:0px;
+}
+
+.container-fluid img {
+	height: 12em;
+	width: 24%;
+	margin-bottom: 1px;
+	border: 3px solid black;
+	display:inline;
+	border-radius: 15px;
+}
+
+nav {
+    overflow: hidden;
+    background-color: black;
+	background: -webkit-linear-gradient(to right, white, black);  
+    background: linear-gradient(to right, white, black); 
+    font-family: Cursive;
+	height: 50px;
+}
+
+.container-fluid a {
+    float: left;
+    font-size: 16px;
+    color: black;
+	background: gray; 
+    background: -webkit-linear-gradient(to right, black, white, black);  
+    background: linear-gradient(to right, black, white, black); 	
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-radius: 20px;
+}
+
+.col-sm-8 {
+	height: 450px;
+	font-Family: Cursive;
+	Font-size: 1.2em;
+	text-align: center;
+	background-image: url("menuback2.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    box-sizing: border-box;
+	padding: 50px 20px;
+	border: 2px solid black;
+	border-bottom: 0px;
+	border-radius: 25px;	
+	color: white;
+}
+
+.text1 {
+	margin: 30px;
+	display: none;
+}
+
+.col-sm-4 {
+	height: 450px;
+	border-radius: 25px;
+	border: 2px solid black;
+	border-bottom: 0px;
+	box-sizing: border-box;
+}
+
+footer {
+    background: linear-gradient(to right,white, black, white); 
+	border-top: 2px solid black;
+	font-family: Cursive;
+	color: black;
+	height: 59px;	
+	clear:both;
+}
+
+footer p {
+	float: left;
+	margin-top: 10px;
+}
+
+footer iframe {
+	height:23px;
+	width:111px;
+	border-radius: 10px;
+}
+
+#social {
+	float: right;
+}
+
+

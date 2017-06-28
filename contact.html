@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coffee please!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="C:\Users\Vlad\Desktop\mySite\streetcoffeeroasters\contact.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="C:\Users\Vlad\Desktop\mySite\streetcoffeeroasters\contact.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="header" class="container-fluid">
+      <img src="C:\Users\Vlad\Desktop\mySite\streetcoffeeroasters\logo.jpg"/>
+      <img src="C:\Users\Vlad\Desktop\mySite\streetcoffeeroasters\logo3.jpg"/>
+      <img src="C:\Users\Vlad\Desktop\mySite\streetcoffeeroasters\logo5.jpg"/>
+      <img src="C:\Users\Vlad\Desktop\mySite\streetcoffeeroasters\logo2.jpg"/>
+    </div>
+   
+    <nav class="container-fluid">
+      <a href="home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  
+   <div id="main" class="container-fluid">
+     <div class="col-sm-8">  
+	   <p class= "text1">Adresă: Strada Mihai Viteazul 1, Oradea </br>
+			Program: </br>
+			luni	08–17 </br>
+			marți	08–17 </br>
+			miercuri 08–17  </br>
+			joi	 08–17  </br>
+			vineri	08–17  </br>
+			sâmbătă	08–15  </br>
+			duminică	Închis  </br>
+			Telefon: 0772 155 464</p>
+     </div>
+     <div class="col-sm-4" id="map"> 
+  
+	   <script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(47.053272, 21.932605);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 16};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+
+  var infowindow = new google.maps.InfoWindow({
+    content: "Best coffee in town"
+  });
+  infowindow.open(map,marker);
+}
+	  </script>
+
+	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjZkwOBC5nOO5s295Jt_L_DLgIoOKXqmY&callback=myMap"></script>
+   </div>
+   
+  <footer class="container-fluid">
+    <p>© Street Coffee Roasters 2017 powered by V.R.</p>
+	<div id="social">  
+	  <p> <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fro-ro.facebook.com%2Fstreetcoffeeroasters%2F&width=20&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId" 
+		   ></iframe></p>
+	  <p>us on Facebook</p> 
+	</div>
+  </footer>
+  
+  </body>
+</html>
+
