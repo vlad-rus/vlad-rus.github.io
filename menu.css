@@ -52,7 +52,7 @@ nav {
 	border-bottom: 0px;
 	border-radius: 25px;	
 	color: white;
-	background-image: url("menuback2.jpg");
+	background-image: url("/menuback2.jpg");
 	background-size: 100% 100%;
     background-repeat: no-repeat;	
 }
@@ -64,7 +64,7 @@ nav {
 
 .col-sm-4 {
 	height: 450px;
-	background-image: url("menupic.jpg");
+	background-image: url("/menupic.jpg");
 	background-size: 100% 100%;
     background-repeat: no-repeat;
 	border-radius: 25px;

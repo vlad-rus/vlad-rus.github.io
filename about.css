@@ -45,7 +45,7 @@ nav {
 	font-Family: Cursive;
 	Font-size: 1.2em;
 	text-align: center;
-	background-image: url("menuback2.jpg");
+	background-image: url("/menuback2.jpg");
 	background-size: 100% 100%;
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -63,7 +63,7 @@ nav {
 
 .col-sm-4 {
 	height: 450px;
-	background-image: url("aboutpic.jpg");
+	background-image: url("/aboutpic.jpg");
 	background-size: 100% 100%;
     background-repeat: no-repeat;
 	border-radius: 25px;
