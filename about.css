@@ -9,6 +9,10 @@ text-align: center;
 padding:0px;
 }
 
+#header {
+	height: 25 %;
+}
+
 #header img {
 	min-width:12em;
 	height: 12em;
@@ -25,7 +29,7 @@ nav {
 	background: -webkit-linear-gradient(to right, white, black);  
     background: linear-gradient(to right, white, black); 
     font-family: Cursive;
-	height: 5rem;
+	height: 10%;
 }
 
 .container-fluid a {
@@ -41,8 +45,12 @@ nav {
 	border-radius: 1.25rem;
 }
 
+#main {
+	height: 58%;
+}
+
 .col-sm-8 {
-	height: 40rem;
+	height: 100%;
 	font-Family: Cursive;
 	Font-size: 1.6rem;
 	text-align: center;
@@ -64,7 +72,7 @@ nav {
 }
 
 .col-sm-4 {
-	height:40rem;
+	height:100%;
 	background-image: url("aboutpic.jpg");
     background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -78,7 +86,7 @@ footer {
 	border-top: 0.125rem solid black;
 	font-family: Cursive;
 	color: black;
-	height: 4 rem;	
+	height: 7%;	
 }
 
 footer p {
